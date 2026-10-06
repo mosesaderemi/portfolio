@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Work &amp; Systems — Aderemi Moses Timileyin</title>
+
+<!-- Primary SEO -->
+<meta name="description" content="Explore production software systems, distributed microservices, autonomous AI pipelines, and full-stack applications built by Aderemi Moses Timileyin.">
+<meta name="author" content="Aderemi Moses Timileyin">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#faf8f5">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Work &amp; Systems — Aderemi Moses Timileyin">
+<meta property="og:description" content="Production software systems, distributed microservices, autonomous AI pipelines, and full-stack applications.">
+<meta property="og:image" content="./Assets/profile.jpg">
+<meta name="twitter:card" content="summary_large_image">
+
+<!-- Favicon -->
+<link rel="icon" type="image/svg+xml" href="./Assets/moses-logo.svg">
+<link rel="apple-touch-icon" href="./Assets/profile.jpg">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="./styles.css">
+<base target="_blank">
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="nav" class="light">
+  <div class="container nav-inner">
+    <a href="index.html#top" class="nav-logo" target="_self">
+      <img src="./Assets/moses-logo.svg" alt="Moses Aderemi logo">
+      <span class="brand-name">Moses <span>Aderemi</span></span>
+    </a>
+    <button class="nav-burger" id="burger" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="nav-links" id="navlinks">
+      <a href="index.html#top" target="_self">Home</a>
+      <a href="work.html" target="_self" class="active">Work</a>
+      <a href="about.html" target="_self">About</a>
+      <a href="resources.html" target="_self">Notes</a>
+      <a href="contact.html" target="_self">Contact</a>
+      <a href="linktree/index.html" target="_self">Link hub</a>
+      <button type="button" class="nav-cta" id="talkBtn" aria-haspopup="dialog" aria-controls="contactModal" aria-expanded="false">Let's talk</button>
+    </div>
+  </div>
+</nav>
+
+<!-- WORK SECTION -->
+<section id="work" class="section alt" style="padding-top:120px;">
+  <div class="container">
+    <div class="section-head r">
+      <h1>Engineered Systems &amp; Case Studies</h1>
+      <p>
+        I have designed and delivered 30+ projects spanning enterprise microservices, real-time higher-ed platforms, multi-agent AI pipelines, and mobile applications. Below is an in-depth breakdown of how each system was conceptualized, architected, and executed.
+      </p>
+    </div>
+
+    <!-- PROJECT 1: Healthcare Management Platform -->
+    <article id="healthcare" class="proj proj-baya r">
+      <div class="proj-copy">
+        <span class="proj-tag">Flagship Enterprise Architecture</span>
+        <div class="proj-meta"><span>Microservices</span><span class="sep"></span><span class="year">2026</span></div>
+        <h3>Healthcare Management Platform</h3>
+        <p class="proj-lead">A distributed microservices ecosystem for hospital operations, real-time patient telemetry, and clinical scheduling.</p>
+        
+        <div class="proj-block">
+          <span class="eyebrow">The Problem</span>
+          <p>
+            Monolithic healthcare backends frequently face single-point-of-failure risks. When billing or reporting experiences peak load, critical clinical functions like patient triage and appointment scheduling suffer latency or outages.
+          </p>
+        </div>
+
+        <div class="proj-block">
+          <span class="eyebrow">What I Built</span>
+          <p>
+            A decoupled microservices platform operating behind a central Spring Cloud Gateway with distributed discovery, central configuration, and JWT role-based authorization:
+          </p>
+          <ul class="proj-features">
+            <li><strong>Auth Service:</strong> Spring Security 6 token service handling credential rotation and role permissions (Admin, Doctor, Nurse, Patient).</li>
+            <li><strong>Patient &amp; Telemetry Service:</strong> Normalized PostgreSQL schema tracking vitals (ECG, SpO2, heart rate) with query optimization.</li>
+            <li><strong>Appointment &amp; Scheduling:</strong> Real-time booking with optimistic locking to prevent double bookings across practitioner rosters.</li>
+            <li><strong>Billing Service:</strong> Automated invoicing with Stripe webhook reconciliations and JasperReports PDF generation.</li>
+            <li><strong>Client &amp; DevOps:</strong> Responsive React + TypeScript dashboard, Docker Compose containerization, and Kubernetes deployment manifests.</li>
+          </ul>
+        </div>
+
+        <div class="proj-block">
+          <span class="eyebrow">My Role</span>
+          <p>System Architect and Full-Stack Engineer. Designed database schemas, inter-service REST contracts, gateway routing, and the React administrative frontend.</p>
+        </div>
+
+        <div class="proj-tech">
+          <span class="tech-tag">Java 21</span>
+          <span class="tech-tag">Spring Boot</span>
+          <span class="tech-tag">Spring Cloud</span>
+          <span class="tech-tag">React / TypeScript</span>
+          <span class="tech-tag">PostgreSQL</span>
+          <span class="tech-tag">Docker</span>
+          <span class="tech-tag">Kubernetes</span>
+        </div>
+
+        <div class="proj-links">
+          <a class="proj-link proj-cta" href="https://github.com/mosesaderemi/doctor-patient-system" rel="noopener noreferrer" target="_blank">View GitHub Repository <span class="arr">↗</span></a>
+        </div>
+      </div>
+
+      <div class="proj-media pm-wide r r-d1">
+        <a class="pm-frame" href="https://github.com/mosesaderemi/doctor-patient-system" rel="noopener noreferrer" target="_blank">
+          <img class="proj-shot" src="./Assets/images/healthcare-platform.jpg" alt="Healthcare Management Platform Dashboard Mockup" data-fallback="Healthcare Platform|Microservices Hospital System">
+        </a>
+        <div class="pm-note"><span>Architecture · github.com/mosesaderemi/doctor-patient-system</span><span class="arr">↗</span></div>
+      </div>
+    </article>
+
+    <!-- PROJECT 2: CIITM Institute Management Backend -->
+    <article id="ciitm" class="proj proj-med r">
+      <div class="proj-copy">
+        <span class="proj-tag">Higher Ed ERP &amp; AI</span>
+        <div class="proj-meta"><span>Node.js / Express</span><span class="sep"></span><span class="year">2026</span></div>
+        <h3>Institute Management Backend (CIITM)</h3>
+        <p class="proj-lead">Full-stack academic operating system with real-time admissions, payment verification, and a Gemini-powered student AI assistant.</p>
+        
+        <div class="proj-block">
+          <span class="eyebrow">The Problem</span>
+          <p>
+            Educational institutes often run disjointed spreadsheets and standalone billing gateways. Students struggle to check tuition balances and course updates, while administrative staff manually verify payment receipts and answer repetitive inquiries.
+          </p>
+        </div>
+
+        <div class="proj-block">
+          <span class="eyebrow">What I Built</span>
+          <p>
+            A high-throughput REST and WebSocket backend integrating financial transactions with generative AI:
+          </p>
+          <ul class="proj-features">
+            <li><strong>Admissions &amp; Course Management:</strong> Automated student matriculation, dynamic prerequisite checking, and teacher assignments.</li>
+            <li><strong>Secure Multi-Role Auth:</strong> JWT and Google OAuth 2.0 with separate scopes for students, faculty, and bursars.</li>
+            <li><strong>Payment Gateway:</strong> Razorpay webhook listener for automated invoice issuance and reconciliation.</li>
+            <li><strong>Real-time Broadcasts:</strong> Socket.IO channels for instant campus announcements, attendance alerts, and exam timetables.</li>
+            <li><strong>Gemini AI Student Concierge:</strong> Embedded conversational assistant answering syllabus queries, tuition balances, and enrollment status.</li>
+          </ul>
+        </div>
+
+        <div class="proj-block">
+          <span class="eyebrow">My Role</span>
+          <p>Lead Backend Developer. Designed MongoDB document schemas, indexing strategies, payment security, and Gemini AI context prompts.</p>
+        </div>
+
+        <div class="proj-tech">
+          <span class="tech-tag">Node.js</span>
+          <span class="tech-tag">Express</span>
+          <span class="tech-tag">MongoDB</span>
+          <span class="tech-tag">Socket.IO</span>
+          <span class="tech-tag">Gemini AI</span>
+          <span class="tech-tag">Razorpay</span>
+          <span class="tech-tag">Cloudinary</span>
+        </div>
+
+        <div class="proj-links">
+          <a class="proj-link proj-cta" href="https://github.com/mosesaderemi/ciitm-backend" rel="noopener noreferrer" target="_blank">View GitHub Repository <span class="arr">↗</span></a>
+        </div>
+      </div>
+
+      <div class="proj-media pm-wide r r-d1">
+        <a class="pm-frame" href="https://github.com/mosesaderemi/ciitm-backend" rel="noopener noreferrer" target="_blank">
+          <img class="proj-shot" src="./Assets/images/ciitm-backend.jpg" alt="CIITM Institute Management Dashboard Mockup" data-fallback="CIITM Backend|Institute Management & Gemini AI">
+        </a>
+        <div class="pm-note"><span>Backend API · github.com/mosesaderemi/ciitm-backend</span><span class="arr">↗</span></div>
+      </div>
+    </article>
+
+    <!-- PROJECT 3: AI Sales & Voice Agent Pipeline -->
+    <article id="ai-agent" class="proj proj-vulcan r">
+      <div class="proj-copy r">
+        <span class="proj-tag">Autonomous AI &amp; Voice</span>
+        <div class="proj-meta"><span>Python / LangGraph</span><span class="sep"></span><span class="year">2026</span></div>
+        <h3>AI Sales &amp; Leads Reactivation Voice Agent</h3>
+        <p class="proj-lead">Deterministic tool-calling agent with sub-second telephony outreach, hybrid RAG retrieval, and automated payment generation.</p>
+
+        <div class="proj-block">
+          <span class="eyebrow">The Problem</span>
+          <p>
+            Businesses lose thousands in revenue when marketing leads sit unattended for hours. Similarly, hundreds of past customers in CRMs go cold because sales teams lack the bandwidth to conduct manual reactivation phone calls.
+          </p>
+        </div>
+
+        <div class="proj-block">
+          <span class="eyebrow">What I Built</span>
+          <p>
+            An end-to-end autonomous agent workflow combining natural conversational speech with programmatic tool execution:
+          </p>
+          <ul class="proj-features">
+            <li><strong>State Machine with LangGraph:</strong> Bounded decision graphs preventing hallucinated loops, managing conversation states with memory checkpointing.</li>
+            <li><strong>Tool-Calling Architecture:</strong> Executes CRM lookups, calculates quote discounts, checks calendar availability, and creates Stripe payment links in real-time.</li>
+            <li><strong>Sub-second Voice Pipeline:</strong> Integrates Vapi and Deepgram speech-to-text / text-to-speech for low-latency phone calls.</li>
+            <li><strong>CRM Two-Way Sync:</strong> Analyzes post-call transcripts, extracts lead qualification scores (0-100), and records outcomes in Airtable and HubSpot.</li>
+          </ul>
+        </div>
+
+        <div class="proj-block">
+          <span class="eyebrow">My Role</span>
+          <p>AI Architect &amp; Developer. Built the prompt engineering pipeline, FastAPI webhooks, tool execution registry, and telephonic voice integration.</p>
+        </div>
+
+        <div class="proj-tech">
+          <span class="tech-tag">Python</span>
+          <span class="tech-tag">LangGraph</span>
+          <span class="tech-tag">LiteLLM</span>
+          <span class="tech-tag">FastAPI</span>
+          <span class="tech-tag">Vapi &amp; Deepgram</span>
+          <span class="tech-tag">Chroma DB</span>
+          <span class="tech-tag">Stripe API</span>
+        </div>
+
+        <div class="proj-links">
+          <a class="proj-link proj-cta" href="https://github.com/mosesaderemi/ai-sales-agent" rel="noopener noreferrer" target="_blank">View GitHub Repository <span class="arr">↗</span></a>
+          <a class="proj-link gh" href="https://github.com/mosesaderemi/leads-reactivation-ai-voice-agent" rel="noopener noreferrer" target="_blank">Voice Agent Repo ↗</a>
+        </div>
+      </div>
+
+      <div class="vulcan-panel r r-d1" aria-hidden="true">
+        <div class="vp-head">
+          <span class="vp-name">AI Agent Workflow</span>
+          <span class="vp-tag">LangGraph Pipeline</span>
+        </div>
+        <div class="vulcan-pipe">
+          <div class="vulcan-flow">
+            <div class="vf-step">Trigger (Inbound / CRM)</div>
+            <div class="vf-arrow">&#8595;</div>
+            <div class="vf-step">Intent Classification &amp; Safety</div>
+            <div class="vf-arrow">&#8595;</div>
+            <div class="vf-step">Tool Call (Vector RAG / Calendar)</div>
+            <div class="vf-arrow">&#8595;</div>
+            <div class="vf-step">Voice Synthesis (Vapi / Deepgram)</div>
+            <div class="vf-arrow">&#8595;</div>
+            <div class="vf-step">CRM Sync &amp; Stripe Checkout</div>
+          </div>
+          <p class="vp-caption">Structured execution pipeline with loop protection and 100% deterministic output formatting.</p>
+        </div>
+        <div class="vp-foot">Powered by LangGraph, LiteLLM, and FastAPI with automated fallback.</div>
+      </div>
+    </article>
+
+    <!-- PROJECT 4: Laravel E-Commerce & Vue 3 Admin -->
+    <article id="ecommerce" class="proj proj-med r">
+      <div class="proj-copy">
+        <span class="proj-tag">Full-Stack Commerce</span>
+        <div class="proj-meta"><span>PHP / Laravel &amp; Vue 3</span><span class="sep"></span><span class="year">2026</span></div>
+        <h3>Laravel E-Commerce Platform &amp; Vue 3 Admin</h3>
+        <p class="proj-lead">Full-featured consumer digital storefront coupled with a reactive administration portal for catalog and inventory operations.</p>
+        
+        <div class="proj-block">
+          <span class="eyebrow">The Problem</span>
+          <p>
+            Standard e-commerce plugins often suffer from sluggish administrative controls, rigid database structures, and high SaaS recurring transaction fees.
+          </p>
+        </div>
+
+        <div class="proj-block">
+          <span class="eyebrow">What I Built</span>
+          <p>
+            Custom, high-performance commerce solution built on Laravel and Vue 3:
+          </p>
+          <ul class="proj-features">
+            <li><strong>Product Catalog &amp; Inventory:</strong> Dynamic product catalog with multi-tier category hierarchies, variants, and stock deductions.</li>
+            <li><strong>Stripe Checkout &amp; Webhooks:</strong> Payment processing with webhook handling for automated fulfillment status and refund transactions.</li>
+            <li><strong>Vue 3 Admin Portal:</strong> Single-page administrative dashboard featuring sales charts, order lifecycle management, and customer CRM.</li>
+            <li><strong>Role-Based Access (RBAC):</strong> Granular merchant permissions restricting administrative actions from global site configuration.</li>
+          </ul>
+        </div>
+
+        <div class="proj-tech">
+          <span class="tech-tag">PHP / Laravel</span>
+          <span class="tech-tag">Vue 3</span>
+          <span class="tech-tag">MySQL</span>
+          <span class="tech-tag">Inertia.js</span>
+          <span class="tech-tag">Tailwind CSS</span>
+          <span class="tech-tag">Stripe</span>
+        </div>
+
+        <div class="proj-links">
+          <a class="proj-link proj-cta" href="https://github.com/mosesaderemi/ecommerce-laravel" rel="noopener noreferrer" target="_blank">View GitHub Repository <span class="arr">↗</span></a>
+        </div>
+      </div>
+
+      <div class="proj-media pm-wide r r-d1">
+        <a class="pm-frame" href="https://github.com/mosesaderemi/ecommerce-laravel" rel="noopener noreferrer" target="_blank">
+          <img class="proj-shot" src="./Assets/images/ecommerce-laravel.jpg" alt="Laravel Ecommerce Dashboard Mockup" data-fallback="Laravel E-Commerce|Vue 3 Admin Panel">
+        </a>
+        <div class="pm-note"><span>Full-Stack · github.com/mosesaderemi/ecommerce-laravel</span><span class="arr">↗</span></div>
+      </div>
+    </article>
+
+    <!-- PROJECT 5: Cross-Platform Mobile Recipe App -->
+    <article id="recipe" class="proj proj-neche r">
+      <div class="proj-copy r r-d1">
+        <span class="neche-stamp">Mobile Application</span>
+        <div class="proj-meta"><span>React Native · Expo</span><span class="sep"></span><span class="year">2026</span></div>
+        <h3>Recipe &amp; Culinary Mobile App</h3>
+        <p class="proj-lead">Cross-platform iOS and Android mobile app with biometric auth, video tutorials, and interactive cooking mode.</p>
+
+        <div class="proj-block">
+          <span class="eyebrow">The Problem</span>
+          <p>
+            Cooking websites are notorious for heavy ads, invasive popups, and cumbersome instructions that sleep your device screen while your hands are covered in ingredients.
+          </p>
+        </div>
+
+        <div class="proj-block">
+          <span class="eyebrow">What I Built</span>
+          <p>
+            A streamlined mobile application built for cooks in the kitchen:
+          </p>
+          <ul class="proj-features">
+            <li><strong>Clerk Cross-Device Auth:</strong> Seamless user authentication for cross-device profile syncing and saved recipes.</li>
+            <li><strong>Interactive Cooking Mode:</strong> Step-by-step cooking view with wake-lock screen persistence, ingredient checklists, and hands-free cook timers.</li>
+            <li><strong>Dietary Filtering:</strong> Real-time filtering by dietary requirements (Vegan, Keto, Gluten-Free, High-Protein).</li>
+            <li><strong>Backend Sync API:</strong> Express &amp; PostgreSQL backend syncing user bookmarking, ratings, and custom notes.</li>
+          </ul>
+        </div>
+
+        <div class="proj-tech">
+          <span class="tech-tag">React Native</span>
+          <span class="tech-tag">Expo</span>
+          <span class="tech-tag">Node.js / Express</span>
+          <span class="tech-tag">PostgreSQL</span>
+          <span class="tech-tag">Clerk Auth</span>
+        </div>
+
+        <div class="proj-links">
+          <a class="proj-link proj-cta" href="https://github.com/mosesaderemi/recipe-app" rel="noopener noreferrer" target="_blank">View GitHub Repository <span class="arr">↗</span></a>
+        </div>
+      </div>
+
+      <div class="proj-media pm-sq r">
+        <a class="pm-frame" href="https://github.com/mosesaderemi/recipe-app" rel="noopener noreferrer" target="_blank">
+          <img class="proj-shot sq" src="./Assets/images/recipe-app.jpg" alt="Recipe App Mobile Mockup" data-fallback="Recipe App|Cross-platform Mobile">
+        </a>
+        <div class="pm-note"><span>Mobile · github.com/mosesaderemi/recipe-app</span><span class="arr">↗</span></div>
+      </div>
+    </article>
+
+    <!-- PROJECT 6: Production Auth Starters -->
+    <article id="auth" class="proj proj-baya r">
+      <div class="proj-copy">
+        <span class="proj-tag">Reusable Architecture Starters</span>
+        <div class="proj-meta"><span>Java &amp; PHP Boilerplates</span><span class="sep"></span><span class="year">2026</span></div>
+        <h3>Spring Boot JWT &amp; Vue Laravel Auth Kit</h3>
+        <p class="proj-lead">Hardened architectural boilerplate starters implementing enterprise authentication, refresh token rotation, and RBAC.</p>
+
+        <div class="proj-block">
+          <span class="eyebrow">What I Built</span>
+          <p>
+            Two production-grade foundational packages used as the bedrock for enterprise projects:
+          </p>
+          <ul class="proj-features">
+            <li><strong>Spring Boot JWT Boilerplate:</strong> Java 21, Spring Security, refresh token rotation, Redis caching, and Dockerized deployment.</li>
+            <li><strong>Vue Laravel Auth Kit:</strong> Laravel Sanctum backend paired with a reactive Vue 3 interface covering email verification, password resets, and session management.</li>
+          </ul>
+        </div>
+
+        <div class="proj-tech">
+          <span class="tech-tag">Java</span>
+          <span class="tech-tag">Spring Boot</span>
+          <span class="tech-tag">JWT</span>
+          <span class="tech-tag">PHP / Laravel</span>
+          <span class="tech-tag">Sanctum</span>
+          <span class="tech-tag">Docker</span>
+        </div>
+
+        <div class="proj-links">
+          <a class="proj-link proj-cta" href="https://github.com/mosesaderemi/springboot-jwt-boilerplate" rel="noopener noreferrer" target="_blank">Spring Boot Starter ↗</a>
+          <a class="proj-link gh" href="https://github.com/mosesaderemi/vue-laravel-auth-kit" rel="noopener noreferrer" target="_blank">Vue Laravel Kit ↗</a>
+        </div>
+      </div>
+
+      <div class="proj-media pm-wide r r-d1">
+        <a class="pm-frame" href="https://github.com/mosesaderemi/springboot-jwt-boilerplate" rel="noopener noreferrer" target="_blank">
+          <img class="proj-shot" src="./Assets/images/auth-starters.jpg" alt="Auth Starters Dashboard Mockup" data-fallback="Auth Starters|JWT & RBAC Architecture">
+        </a>
+        <div class="pm-note"><span>Security Architecture · Open Source</span><span class="arr">↗</span></div>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<!-- SYSTEMS & WEB APPLICATIONS GALLERY -->
+<section id="systems-gallery" class="section">
+  <div class="container">
+    <div class="section-head r">
+      <span class="eyebrow">Websites &amp; Web Applications</span>
+      <h2>Production Web Applications &amp; <em>Digital Products.</em></h2>
+      <p>Custom applications built around specific business models, diagnostic tools, and customer touchpoints.</p>
+    </div>
+
+    <div class="web-grid">
+      <!-- Tile 1: Healthcare AI Web App -->
+      <div class="web-tile r">
+        <a href="https://github.com/mosesaderemi/healthcare-ai-webapp" target="_blank" rel="noopener noreferrer">
+          <div class="wt-shot"><img src="./Assets/images/healthcare-ai.svg" alt="Healthcare AI Diagnostic App" loading="lazy"></div>
+          <div class="wt-cap"><span class="wt-name">Healthcare AI Diagnostic Web App</span><span class="wt-kind">Flask · TensorFlow · Docker</span></div>
+        </a>
+      </div>
+
+      <!-- Tile 2: Online Book Store -->
+      <div class="web-tile r r-d1">
+        <a href="https://github.com/mosesaderemi/online-book-store" target="_blank" rel="noopener noreferrer">
+          <div class="wt-shot"><img src="./Assets/images/online-bookstore.png" alt="Online Book Store Platform" loading="lazy"></div>
+          <div class="wt-cap"><span class="wt-name">PageTurn Online Book Store</span><span class="wt-kind">Django · Stripe Checkout</span></div>
+        </a>
+      </div>
+
+      <!-- Tile 3: Demo Restaurant -->
+      <div class="web-tile r r-d2">
+        <a href="https://github.com/mosesaderemi/demo-restaurant" target="_blank" rel="noopener noreferrer">
+          <div class="wt-shot"><img src="./Assets/images/gallery-restaurant.webp" alt="Demo Restaurant Website" loading="lazy"></div>
+          <div class="wt-cap"><span class="wt-name">Demo Restaurant Website</span><span class="wt-kind">Next.js · TypeScript · Tailwind</span></div>
+        </a>
+      </div>
+
+      <!-- Tile 4: Real Estate Management -->
+      <div class="web-tile r">
+        <a href="https://github.com/mosesaderemi/real-estate-php" target="_blank" rel="noopener noreferrer">
+          <div class="wt-shot"><img src="./Assets/images/real-estate.png" alt="Real Estate Management Portal" loading="lazy"></div>
+          <div class="wt-cap"><span class="wt-name">Real Estate Management ERP</span><span class="wt-kind">PHP · MySQL · Role RBAC</span></div>
+        </a>
+      </div>
+
+      <!-- Tile 5: Interactive Login Character -->
+      <div class="web-tile r r-d1">
+        <a href="https://github.com/mosesaderemi/login-character" target="_blank" rel="noopener noreferrer">
+          <div class="wt-shot"><img src="./Assets/images/login-character.svg" alt="Interactive Login Character" loading="lazy"></div>
+          <div class="wt-cap"><span class="wt-name">Interactive Login Mascot</span><span class="wt-kind">React · TypeScript · Framer Motion</span></div>
+        </a>
+      </div>
+
+      <!-- Tile 6: E-Shop Mobile App -->
+      <div class="web-tile r r-d2">
+        <a href="https://github.com/mosesaderemi/e-shop-mobile-app" target="_blank" rel="noopener noreferrer">
+          <div class="wt-shot"><img src="./Assets/images/recipe-app.jpg" alt="E-Shop Mobile Application" loading="lazy"></div>
+          <div class="wt-cap"><span class="wt-name">E-Shop Mobile Storefront</span><span class="wt-kind">React Native · NativeWind</span></div>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- AI, ML & DESKTOP SYSTEMS GALLERY -->
+<section id="ai-desktop-gallery" class="section alt">
+  <div class="container">
+    <div class="section-head r">
+      <span class="eyebrow">AI, Machine Learning &amp; Desktop</span>
+      <h2>Specialized Models, Tools &amp; <em>Automation Engines.</em></h2>
+      <p>Data engineering pipelines, LLM web extractors, desktop enterprise suites, and predictive models.</p>
+    </div>
+
+    <div class="web-grid">
+      <!-- Tile 1: AI Web Scraper -->
+      <div class="web-tile r">
+        <a href="https://github.com/mosesaderemi/ai-web-scraper" target="_blank" rel="noopener noreferrer">
+          <div class="wt-shot"><img src="./Assets/images/ai-web-scraper.svg" alt="AI Web Scraper Crawl4AI" loading="lazy"></div>
+          <div class="wt-cap"><span class="wt-name">AI Web Scraper (Crawl4AI)</span><span class="wt-kind">Python · LLM Structured Extraction</span></div>
+        </a>
+      </div>
+
+      <!-- Tile 2: Electric Car Price Prediction -->
+      <div class="web-tile r r-d1">
+        <a href="https://github.com/mosesaderemi/electric-car-price-prediction" target="_blank" rel="noopener noreferrer">
+          <div class="wt-shot"><img src="./Assets/images/ev-prediction.svg" alt="Electric Car Price Prediction" loading="lazy"></div>
+          <div class="wt-cap"><span class="wt-name">Electric Car Valuation Model</span><span class="wt-kind">Python · Scikit-Learn Regression</span></div>
+        </a>
+      </div>
+
+      <!-- Tile 3: Personal AI Assistant -->
+      <div class="web-tile r r-d2">
+        <a href="https://github.com/mosesaderemi/personal-ai-assistant" target="_blank" rel="noopener noreferrer">
+          <div class="wt-shot"><img src="./Assets/images/personal-ai.svg" alt="Personal AI Assistant LangGraph" loading="lazy"></div>
+          <div class="wt-cap"><span class="wt-name">Personal AI Assistant</span><span class="wt-kind">LangGraph · FastAPI · Notion &amp; Slack</span></div>
+        </a>
+      </div>
+
+      <!-- Tile 4: JavaFX Desktop Suite -->
+      <div class="web-tile r">
+        <a href="https://github.com/mosesaderemi/restaurant-management-system" target="_blank" rel="noopener noreferrer">
+          <div class="wt-shot"><img src="./Assets/images/javafx-systems.svg" alt="JavaFX Enterprise Desktop Suite" loading="lazy"></div>
+          <div class="wt-cap"><span class="wt-name">JavaFX Desktop Management Suite</span><span class="wt-kind">Java · JavaFX · MySQL · JasperReports</span></div>
+        </a>
+      </div>
+
+      <!-- Tile 5: Election DApp -->
+      <div class="web-tile r r-d1">
+        <a href="https://github.com/mosesaderemi/election-dapp" target="_blank" rel="noopener noreferrer">
+          <div class="wt-shot"><img src="./Assets/images/auth-starters.jpg" alt="Election DApp Smart Contract" loading="lazy"></div>
+          <div class="wt-cap"><span class="wt-name">Election DApp Smart Contract</span><span class="wt-kind">Solidity · Brownie · Web3</span></div>
+        </a>
+      </div>
+
+      <!-- Tile 6: AI Model with DeepLearning4J -->
+      <div class="web-tile r r-d2">
+        <a href="https://github.com/mosesaderemi/ai-model-building-with-dl4j" target="_blank" rel="noopener noreferrer">
+          <div class="wt-shot"><img src="./Assets/images/dl4j-neural-network.jpg" alt="DeepLearning4J Model" loading="lazy"></div>
+          <div class="wt-cap"><span class="wt-name">DeepLearning4J Neural Network</span><span class="wt-kind">Java · DL4J · Spring Boot REST</span></div>
+        </a>
+      </div>
+    </div>
+
+    <div style="text-align:center; margin-top:54px;">
+      <a class="proj-link proj-cta" href="contact.html" target="_self">Discuss a project or contract engagement →</a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container footer-inner">
+    <a class="footer-brand" href="index.html#top" target="_self">
+      <img src="./Assets/moses-logo.svg" alt="Moses Aderemi logo">
+      <span>Aderemi Moses Timileyin</span>
+    </a>
+    <div class="footer-links">
+      <a href="index.html#top" target="_self">Home</a>
+      <a href="work.html" target="_self">Work</a>
+      <a href="about.html" target="_self">About</a>
+      <a href="resources.html" target="_self">Notes</a>
+      <a href="contact.html" target="_self">Contact</a>
+      <a href="linktree/index.html" target="_self">Link hub</a>
+    </div>
+    <div class="footer-social">
+      <a href="https://www.linkedin.com/in/moses-aderemi-6a70a5405" rel="noopener noreferrer" target="_blank" aria-label="LinkedIn" title="LinkedIn">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1 0-4.124 2.062 2.062 0 0 1 0 4.124zM7.119 20.452H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z"/></svg>
+      </a>
+      <a href="https://github.com/mosesaderemi" rel="noopener noreferrer" target="_blank" aria-label="GitHub" title="GitHub">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+      </a>
+      <a href="https://wa.me/2349068961845" rel="noopener noreferrer" target="_blank" aria-label="WhatsApp" title="WhatsApp">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+      </a>
+      <a href="mailto:mosestimileyinaderemi@gmail.com" target="_self" aria-label="Email" title="Email">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+      </a>
+    </div>
+  </div>
+  <div class="container footer-copy">
+    © <span id="year"></span> Aderemi Moses Timileyin. Designed &amp; engineered for production.
+  </div>
+</footer>
+
+<!-- BACK TO TOP -->
+<button class="to-top" id="toTop" aria-label="Back to top">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+</button>
+
+<!-- CONTACT MODAL -->
+<div class="modal-backdrop" id="contactModal" aria-hidden="true">
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="contactModalTitle">
+    <button class="modal-x" id="contactModalClose" type="button" aria-label="Close contact details">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+    </button>
+    <span class="eyebrow">Get in touch</span>
+    <h2 id="contactModalTitle">Aderemi Moses Timileyin</h2>
+    <div class="modal-list">
+      <a class="modal-link" href="mailto:mosestimileyinaderemi@gmail.com" rel="noopener" target="_self">
+        <span class="ml-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></span>
+        <span class="ml-body">
+          <span class="ml-label">Email</span>
+          <span class="ml-value">mosestimileyinaderemi@gmail.com</span>
+        </span>
+        <span class="ml-arrow">&rarr;</span>
+      </a>
+      <a class="modal-link" href="https://wa.me/2349068961845" rel="noopener noreferrer" target="_blank">
+        <span class="ml-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg></span>
+        <span class="ml-body">
+          <span class="ml-label">WhatsApp</span>
+          <span class="ml-value">+234 906 896 1845</span>
+        </span>
+        <span class="ml-arrow">&rarr;</span>
+      </a>
+      <a class="modal-link" href="https://www.linkedin.com/in/moses-aderemi-6a70a5405" rel="noopener noreferrer" target="_blank">
+        <span class="ml-ico"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1 0-4.124 2.062 2.062 0 0 1 0 4.124zM7.119 20.452H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z"/></svg></span>
+        <span class="ml-body">
+          <span class="ml-label">LinkedIn</span>
+          <span class="ml-value">Moses Aderemi</span>
+        </span>
+        <span class="ml-arrow">&rarr;</span>
+      </a>
+      <a class="modal-link" href="https://github.com/mosesaderemi" rel="noopener noreferrer" target="_blank">
+        <span class="ml-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></span>
+        <span class="ml-body">
+          <span class="ml-label">GitHub</span>
+          <span class="ml-value">github.com/mosesaderemi</span>
+        </span>
+        <span class="ml-arrow">&rarr;</span>
+      </a>
+    </div>
+  </div>
+</div>
+
+<script src="./script.js" defer></script>
+</body>
+</html>

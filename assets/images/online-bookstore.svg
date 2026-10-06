@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bgGrad)"/>
+  
+  <!-- Browser window chrome -->
+  <g transform="translate(40, 30)" filter="url(#shadow)">
+    <rect width="1200" height="660" rx="16" fill="#131d33" stroke="#1e293b" stroke-width="1.5"/>
+    <rect width="1200" height="52" rx="16" fill="#0e1726"/>
+    <path d="M 0 36 L 1200 36 L 1200 52 L 0 52 Z" fill="#0e1726"/>
+    <!-- Window controls -->
+    <circle cx="28" cy="26" r="6" fill="#ef4444"/>
+    <circle cx="48" cy="26" r="6" fill="#f59e0b"/>
+    <circle cx="68" cy="26" r="6" fill="#10b981"/>
+    <!-- Search / Title Bar -->
+    <rect x="360" y="12" width="480" height="28" rx="7" fill="#1e293b" stroke="#1e293b" stroke-width="1"/>
+    <text x="600" y="30" font-family="-apple-system, system-ui, sans-serif" font-size="12" fill="#94a3b8" text-anchor="middle" font-weight="500">pageturn-store.com • Online Book Store</text>
+    <rect x="1080" y="14" width="90" height="24" rx="12" fill="#1e3a8a"/>
+    <text x="1125" y="30" font-family="-apple-system, system-ui, sans-serif" font-size="11" fill="#93c5fd" text-anchor="middle" font-weight="600">Django + Stripe</text>
+    
+    <!-- Content Canvas -->
+    <g transform="translate(0, 52)">
+      
+  <rect x="30" y="25" width="1140" height="110" rx="10" fill="#1e293b"/>
+  <text x="60" y="65" font-family="sans-serif" font-size="26" fill="#ffffff" font-weight="700">PageTurn — The Engineer's Library</text>
+  <text x="60" y="95" font-family="sans-serif" font-size="14" fill="#94a3b8">Curated technical books, automated Stripe checkout, and immediate digital delivery.</text>
+  
+  <g transform="translate(30, 160)">
+    <!-- 4 Book Cards -->
+    
+      <g transform="translate(0, 0)">
+        <rect width="265" height="380" rx="10" fill="#0f172a" stroke="#1e293b" stroke-width="1.5"/>
+        <rect x="15" y="15" width="235" height="220" rx="8" fill="#dc2626" opacity="0.85"/>
+        <rect x="30" y="30" width="205" height="190" rx="4" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+        <text x="40" y="80" font-family="sans-serif" font-size="16" fill="#ffffff" font-weight="700" width="180">Designing Data-Intensive Apps</text>
+        <text x="40" y="110" font-family="sans-serif" font-size="12" fill="rgba(255,255,255,0.8)">Martin Kleppmann</text>
+        
+        <text x="20" y="275" font-family="sans-serif" font-size="15" fill="#ffffff" font-weight="600">Designing Data-Intensive...</text>
+        <text x="20" y="298" font-family="sans-serif" font-size="13" fill="#94a3b8">Martin Kleppmann</text>
+        <text x="20" y="340" font-family="sans-serif" font-size="18" fill="#38bdf8" font-weight="700">$42.00</text>
+        <rect x="155" y="318" width="95" height="34" rx="6" fill="#2563eb"/>
+        <text x="202" y="339" font-family="sans-serif" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="600">Add to Cart</text>
+      </g>
+    
+      <g transform="translate(295, 0)">
+        <rect width="265" height="380" rx="10" fill="#0f172a" stroke="#1e293b" stroke-width="1.5"/>
+        <rect x="15" y="15" width="235" height="220" rx="8" fill="#2563eb" opacity="0.85"/>
+        <rect x="30" y="30" width="205" height="190" rx="4" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+        <text x="40" y="80" font-family="sans-serif" font-size="16" fill="#ffffff" font-weight="700" width="180">Clean Architecture in Java</text>
+        <text x="40" y="110" font-family="sans-serif" font-size="12" fill="rgba(255,255,255,0.8)">Robert C. Martin</text>
+        
+        <text x="20" y="275" font-family="sans-serif" font-size="15" fill="#ffffff" font-weight="600">Clean Architecture in Ja...</text>
+        <text x="20" y="298" font-family="sans-serif" font-size="13" fill="#94a3b8">Robert C. Martin</text>
+        <text x="20" y="340" font-family="sans-serif" font-size="18" fill="#38bdf8" font-weight="700">$38.50</text>
+        <rect x="155" y="318" width="95" height="34" rx="6" fill="#2563eb"/>
+        <text x="202" y="339" font-family="sans-serif" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="600">Add to Cart</text>
+      </g>
+    
+      <g transform="translate(590, 0)">
+        <rect width="265" height="380" rx="10" fill="#0f172a" stroke="#1e293b" stroke-width="1.5"/>
+        <rect x="15" y="15" width="235" height="220" rx="8" fill="#059669" opacity="0.85"/>
+        <rect x="30" y="30" width="205" height="190" rx="4" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+        <text x="40" y="80" font-family="sans-serif" font-size="16" fill="#ffffff" font-weight="700" width="180">Full-Stack Vue 3 & Laravel</text>
+        <text x="40" y="110" font-family="sans-serif" font-size="12" fill="rgba(255,255,255,0.8)">Moses Aderemi</text>
+        
+        <text x="20" y="275" font-family="sans-serif" font-size="15" fill="#ffffff" font-weight="600">Full-Stack Vue 3 & Larav...</text>
+        <text x="20" y="298" font-family="sans-serif" font-size="13" fill="#94a3b8">Moses Aderemi</text>
+        <text x="20" y="340" font-family="sans-serif" font-size="18" fill="#38bdf8" font-weight="700">$34.00</text>
+        <rect x="155" y="318" width="95" height="34" rx="6" fill="#2563eb"/>
+        <text x="202" y="339" font-family="sans-serif" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="600">Add to Cart</text>
+      </g>
+    
+      <g transform="translate(885, 0)">
+        <rect width="265" height="380" rx="10" fill="#0f172a" stroke="#1e293b" stroke-width="1.5"/>
+        <rect x="15" y="15" width="235" height="220" rx="8" fill="#7c3aed" opacity="0.85"/>
+        <rect x="30" y="30" width="205" height="190" rx="4" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+        <text x="40" y="80" font-family="sans-serif" font-size="16" fill="#ffffff" font-weight="700" width="180">Building LLM Agents in Python</text>
+        <text x="40" y="110" font-family="sans-serif" font-size="12" fill="rgba(255,255,255,0.8)">LangChain Guild</text>
+        
+        <text x="20" y="275" font-family="sans-serif" font-size="15" fill="#ffffff" font-weight="600">Building LLM Agents in P...</text>
+        <text x="20" y="298" font-family="sans-serif" font-size="13" fill="#94a3b8">LangChain Guild</text>
+        <text x="20" y="340" font-family="sans-serif" font-size="18" fill="#38bdf8" font-weight="700">$45.00</text>
+        <rect x="155" y="318" width="95" height="34" rx="6" fill="#2563eb"/>
+        <text x="202" y="339" font-family="sans-serif" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="600">Add to Cart</text>
+      </g>
+    
+  </g>
+
+    </g>
+  </g>
+</svg>

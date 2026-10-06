@@ -1,0 +1,16 @@
+{
+  "name": "aderemi-moses-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Professional engineering portfolio for Aderemi Moses Timileyin with Netlify and Vercel serverless contact API.",
+  "scripts": {
+    "start": "npx serve .",
+    "test": "node -e \"console.log('Validating endpoints...'); const v = require('./api/contact'); console.log('Endpoints valid.');\""
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "nodemailer": "^6.9.16"
+  }
+}

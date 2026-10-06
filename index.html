@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aderemi Moses Timileyin — Full-Stack Software Engineer &amp; AI Automation Consultant</title>
+
+<!-- Primary SEO -->
+<meta name="description" content="Aderemi Moses Timileyin is a full-stack software engineer and AI automation consultant building resilient backend microservices, full-stack applications, and autonomous AI agents across Java/Spring Boot, PHP/Laravel, Node.js, Python, Vue.js, and React.">
+<meta name="author" content="Aderemi Moses Timileyin">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#faf8f5">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Aderemi Moses Timileyin — Software Engineer &amp; AI Automation Consultant">
+<meta property="og:description" content="Resilient backend systems, full-stack platforms, and autonomous AI automations built for scale.">
+<meta property="og:image" content="./Assets/profile.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Aderemi Moses Timileyin — Full-Stack Software Engineer">
+<meta name="twitter:description" content="Resilient backend systems, full-stack platforms, and autonomous AI automations built for scale.">
+
+<!-- Favicon -->
+<link rel="icon" type="image/svg+xml" href="./Assets/moses-logo.svg">
+<link rel="apple-touch-icon" href="./Assets/profile.jpg">
+
+<!-- Fonts: Space Grotesk (display) + Inter (text) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="./styles.css">
+<base target="_blank">
+</head>
+<body class="page-home">
+
+<!-- NAV -->
+<nav id="nav" class="over-dark">
+  <div class="container nav-inner">
+    <a href="#top" class="nav-logo" target="_self">
+      <img src="./Assets/moses-logo.svg" alt="Moses Aderemi logo">
+      <span class="brand-name">Moses <span>Aderemi</span></span>
+    </a>
+    <button class="nav-burger" id="burger" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="nav-links" id="navlinks">
+      <a href="#top" target="_self" class="active">Home</a>
+      <a href="work.html" target="_self">Work</a>
+      <a href="about.html" target="_self">About</a>
+      <a href="resources.html" target="_self">Notes</a>
+      <a href="contact.html" target="_self">Contact</a>
+      <a href="linktree/index.html" target="_self">Link hub</a>
+      <button type="button" class="nav-cta" id="talkBtn" aria-haspopup="dialog" aria-controls="contactModal" aria-expanded="false">Let's talk</button>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<header class="hero" id="top" data-hero>
+  <div class="hero-bg" aria-hidden="true">
+    <img class="hero-portrait" id="portrait" src="./Assets/hero-profile.jpg" alt="Aderemi Moses Timileyin">
+  </div>
+  <div class="hero-scrim" aria-hidden="true"></div>
+  <div class="container hero-inner">
+    <span class="hero-name">Aderemi Moses Timileyin</span>
+    <h1>I build resilient backend systems, full-stack platforms &amp; <em>autonomous AI automations.</em></h1>
+    <p class="hero-statement">
+      Software works best when engineered around real operational problems: high concurrency, manual bottlenecks, complex integrations, and mission-critical workflows. I design and build secure, scalable systems that turn business complexity into reliable code.
+    </p>
+    <div class="hero-actions">
+      <a href="#work" class="hero-link" target="_self">See what I've built <span class="arr">↗</span></a>
+      <a href="about.html" class="hero-link alt" target="_self">About me</a>
+    </div>
+    <div class="hero-facts">
+      <span class="hero-fact">Osogbo, Nigeria · Remote</span>
+      <span class="hero-fact">Java · Python · PHP · Node · TypeScript</span>
+      <span class="hero-fact">AI Automation &amp; LLM Agents</span>
+      <span class="hero-fact">OAU Computer Science</span>
+    </div>
+  </div>
+</header>
+
+<!-- WHAT I SOLVE -->
+<section class="section" id="solve">
+  <div class="container">
+    <div class="section-head r">
+      <span class="eyebrow">What I solve</span>
+      <h2>The engineering bottlenecks <em>worth writing software for.</em></h2>
+      <p>
+        Code is a tool to eliminate constraints. These are the operational and technical problems I systematically diagnose, architect, and resolve for modern businesses.
+      </p>
+    </div>
+    <ol class="solve-list">
+      <li class="solve-row r">
+        <span class="solve-num">01</span>
+        <div class="solve-body">
+          <h3>Fragile manual workflows &amp; repetitive operations</h3>
+          <p>
+            Repetitive work done by hand quietly bleeds engineering and operational hours. Teams copy-paste data between CRMs, spreadsheets, and portals; manually dispatch follow-ups; and spend hours formatting reports. A routine task taking 3 hours daily adds up to 780 hours a year nearly 20 full working weeks spent repeating one mechanical cycle, creating delays and human error.
+          </p>
+          <p class="cost"><span class="cost-lbl">The operational cost</span>
+            At $20/hour, 780 hours of manual data handling costs $15,600 annually for a single employee. When multiple team members are involved, that cost climbs past $60,000. Autonomous workflow automation (n8n, Python agents, webhooks) handles repetitive tasks instantly with 100% precision.
+          </p>
+        </div>
+      </li>
+      <li class="solve-row r r-d1">
+        <span class="solve-num">02</span>
+        <div class="solve-body">
+          <h3>Systems that choke under concurrency &amp; leak transactions</h3>
+          <p>
+            When traffic spikes or databases grow, poorly indexed queries, unoptimized connection pools, and monolithic bottlenecks cause timeouts and dropped requests. Customers arrive ready to purchase or book, hit a spinner, and abandon the session.
+          </p>
+          <p>
+            Nobody sends you an invoice for that lost customer, the revenue simply vanishes without a trace.
+          </p>
+          <p class="cost"><span class="cost-lbl">The financial impact</span>
+            If 50,000 qualified visitors land on an application and checkout conversion is throttled at 2% due to latency, you capture 1,000 customers. By re-architecting with clean database schemas, caching, and resilient asynchronous job queues, increasing conversion to 5% generates <strong>1,500 additional transactions and $150,000 in recovered revenue</strong> at an average order value of $100.
+          </p>
+        </div>
+      </li>
+      <li class="solve-row r r-d2">
+        <span class="solve-num">03</span>
+        <div class="solve-body">
+          <h3>Siloed platforms &amp; unreachable business intelligence</h3>
+          <p>
+            Critical operational data ends up scattered across third-party portals, payment gateways (Stripe, Razorpay), disconnected SQL/NoSQL databases, and internal spreadsheets. Leadership asks for actionable numbers, but assembling an accurate metric requires hours of manual exports and reconciliation.
+          </p>
+          <p>
+            I architect centralized microservices, secure RESTful APIs, and webhook event buses that unify customer records, telemetry, and transactional data into an accessible single source of truth.
+          </p>
+        </div>
+      </li>
+      <li class="solve-row r r-d3">
+        <span class="solve-num">04</span>
+        <div class="solve-body">
+          <h3>Turning complex AI ideas into reliable production systems</h3>
+          <p>
+            Building a toy demo with an LLM prompt is straightforward; building an autonomous agent that calls external APIs, queries real databases, enforces strict role-based access control, handles network timeouts, and adheres to strict safety rubrics is an engineering discipline.
+          </p>
+          <p>
+            I build production-grade agentic architectures with LangGraph, LangChain, tool calling, and evaluation pipelines that actually work in real-world environments.
+          </p>
+        </div>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- WHAT I BUILD -->
+<section id="work" class="section alt">
+  <div class="container">
+    <div class="section-head r">
+      <span class="eyebrow">What I build</span>
+      <h2>Systems built for <em>performance &amp; scale.</em></h2>
+      <p>Distributed backend architectures, enterprise portals, full-stack commerce, and autonomous AI pipelines.</p>
+    </div>
+    <div class="feat-grid">
+
+      <!-- PROJECT 1: Healthcare Management Platform -->
+      <article class="feat-card r">
+        <a class="feat-shot" href="https://github.com/mosesaderemi/doctor-patient-system" rel="noopener noreferrer" aria-label="Open Healthcare Microservices Platform" target="_blank">
+          <img class="proj-shot" src="./Assets/images/healthcare-platform.jpg" alt="Healthcare Management Platform dashboard" data-fallback="Healthcare Platform|Microservices Hospital System">
+        </a>
+        <div class="feat-body">
+          <span class="proj-tag">Enterprise System</span>
+          <div class="proj-meta"><span>Microservices Architecture</span><span class="sep"></span><span class="year">2026</span></div>
+          <h3>Healthcare Management Platform</h3>
+          <p class="feat-desc">
+            Distributed microservices platform designed for hospitals and clinical networks. Features patient registration, appointment scheduling, electronic medical records, doctor rosters, prescription handling, and billing behind a Spring Cloud API Gateway with JWT role-based security.
+          </p>
+          <div class="proj-tech">
+            <span class="tech-tag">Java 21</span>
+            <span class="tech-tag">Spring Boot 3</span>
+            <span class="tech-tag">Spring Cloud</span>
+            <span class="tech-tag">React / TypeScript</span>
+            <span class="tech-tag">PostgreSQL</span>
+            <span class="tech-tag">Docker &amp; K8s</span>
+          </div>
+          <div class="feat-links">
+            <a class="proj-link proj-cta" href="https://github.com/mosesaderemi/doctor-patient-system" rel="noopener noreferrer" target="_blank">View GitHub Repo <span class="arr">↗</span></a>
+            <a class="proj-link gh" href="work.html#healthcare" target="_self">Deep Dive</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- PROJECT 2: CIITM Institute Management -->
+      <article class="feat-card r r-d1">
+        <a class="feat-shot" href="https://github.com/mosesaderemi/ciitm-backend" rel="noopener noreferrer" aria-label="Open CIITM Backend" target="_blank">
+          <img class="proj-shot" src="./Assets/images/ciitm-backend.jpg" alt="CIITM Institute Management dashboard" data-fallback="CIITM Backend|Institute Management & Gemini AI">
+        </a>
+        <div class="feat-body">
+          <span class="proj-tag">Higher Ed ERP &amp; AI</span>
+          <div class="proj-meta"><span>Node.js / Express</span><span class="sep"></span><span class="year">2026</span></div>
+          <h3>Institute Management Backend (CIITM)</h3>
+          <p class="feat-desc">
+            End-to-end academic management backend covering admissions, course registration, grading, fee collections, and notice broadcasts. Integrated with Google OAuth, Razorpay payments, Cloudinary media storage, and a real-time Gemini-powered student AI assistant.
+          </p>
+          <div class="proj-tech">
+            <span class="tech-tag">Node.js</span>
+            <span class="tech-tag">Express</span>
+            <span class="tech-tag">MongoDB</span>
+            <span class="tech-tag">Socket.IO</span>
+            <span class="tech-tag">Gemini AI</span>
+            <span class="tech-tag">Razorpay</span>
+          </div>
+          <div class="feat-links">
+            <a class="proj-link proj-cta" href="https://github.com/mosesaderemi/ciitm-backend" rel="noopener noreferrer" target="_blank">View GitHub Repo <span class="arr">↗</span></a>
+            <a class="proj-link gh" href="work.html#ciitm" target="_self">Deep Dive</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- PROJECT 3: AI Sales & Voice Agent Pipeline -->
+      <article class="feat-card r r-d2">
+        <a class="feat-shot" href="https://github.com/mosesaderemi/ai-sales-agent" rel="noopener noreferrer" aria-label="Open AI Sales Agent" target="_blank">
+          <img class="proj-shot" src="./Assets/images/ai-sales-agent.jpg" alt="AI Sales Agent and Voice Assistant UI" data-fallback="AI Sales Agent|Tool-calling agent & voice pipeline">
+        </a>
+        <div class="feat-body">
+          <span class="proj-tag">Agentic AI &amp; Voice</span>
+          <div class="proj-meta"><span>Autonomous Agent</span><span class="sep"></span><span class="year">2026</span></div>
+          <h3>AI Sales &amp; Leads Reactivation Voice Agent</h3>
+          <p class="feat-desc">
+            Tool-calling sales automation system capable of autonomous lead qualification, hybrid vector retrieval, real-time telephony outreach (via Vapi &amp; Deepgram), consultation scheduling via Calendly, and instantaneous Stripe payment link generation.
+          </p>
+          <div class="proj-tech">
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">LangGraph</span>
+            <span class="tech-tag">LiteLLM</span>
+            <span class="tech-tag">FastAPI</span>
+            <span class="tech-tag">Vapi / Deepgram</span>
+            <span class="tech-tag">Stripe</span>
+          </div>
+          <div class="feat-links">
+            <a class="proj-link proj-cta" href="https://github.com/mosesaderemi/ai-sales-agent" rel="noopener noreferrer" target="_blank">View GitHub Repo <span class="arr">↗</span></a>
+            <a class="proj-link gh" href="work.html#ai-agent" target="_self">Agent Architecture</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- PROJECT 4: Laravel E-Commerce & Vue 3 Admin -->
+      <article class="feat-card r r-d3">
+        <a class="feat-shot" href="https://github.com/mosesaderemi/ecommerce-laravel" rel="noopener noreferrer" aria-label="Open Laravel Ecommerce" target="_blank">
+          <img class="proj-shot" src="./Assets/images/ecommerce-laravel.jpg" alt="Laravel Ecommerce and Vue 3 Admin Panel" data-fallback="Laravel E-Commerce|Vue 3 Admin Panel">
+        </a>
+        <div class="feat-body">
+          <span class="proj-tag">Full-Stack Commerce</span>
+          <div class="proj-meta"><span>Storefront &amp; Admin</span><span class="sep"></span><span class="year">2026</span></div>
+          <h3>Laravel E-Commerce &amp; Vue 3 Admin</h3>
+          <p class="feat-desc">
+            Production commerce engine with dynamic product catalogs, inventory management, tax/shipping calculators, and Stripe checkout webhooks, accompanied by a reactive Vue 3 administrative dashboard with live analytics charts and customer management.
+          </p>
+          <div class="proj-tech">
+            <span class="tech-tag">PHP / Laravel</span>
+            <span class="tech-tag">Vue 3</span>
+            <span class="tech-tag">MySQL</span>
+            <span class="tech-tag">Inertia.js</span>
+            <span class="tech-tag">Stripe</span>
+            <span class="tech-tag">Tailwind CSS</span>
+          </div>
+          <div class="feat-links">
+            <a class="proj-link proj-cta" href="https://github.com/mosesaderemi/ecommerce-laravel" rel="noopener noreferrer" target="_blank">View GitHub Repo <span class="arr">↗</span></a>
+            <a class="proj-link gh" href="work.html#ecommerce" target="_self">Deep Dive</a>
+          </div>
+        </div>
+      </article>
+
+    </div>
+    <div style="text-align:center; margin-top:48px;">
+      <a class="proj-link gh" href="work.html" target="_self">Explore all 30+ projects in Work gallery →</a>
+    </div>
+  </div>
+</section>
+
+<!-- HOW I WORK -->
+<section class="section" id="how">
+  <div class="container">
+    <div class="section-head r">
+      <span class="eyebrow">Engineering Methodology</span>
+      <h2>I don't start with the code.<br><em>I start with the operational constraint.</em></h2>
+    </div>
+    <ol class="method">
+      <li class="method-step r">
+        <span class="method-num">01</span>
+        <h3>Understand</h3>
+        <p>What is happening in the business today? Where do manual processes, latency, or data disconnects occur?</p>
+      </li>
+      <li class="method-step r r-d1">
+        <span class="method-num">02</span>
+        <h3>Quantify</h3>
+        <p>What does the bottleneck cost in engineering hours, dropped orders, or operational overhead?</p>
+      </li>
+      <li class="method-step r r-d2">
+        <span class="method-num">03</span>
+        <h3>Architect</h3>
+        <p>Choose the right pattern: microservices, modular monolith, webhook queue, or autonomous AI agent.</p>
+      </li>
+      <li class="method-step r r-d3">
+        <span class="method-num">04</span>
+        <h3>Ship &amp; Monitor</h3>
+        <p>Deliver containerized, well-tested code with CI/CD automation, logging, and performance telemetry.</p>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- NOTES PREVIEW -->
+<section class="section" id="notes">
+  <div class="container">
+    <div class="section-head r">
+      <span class="eyebrow">Notes &amp; Insights</span>
+      <h2>Thinking about the architecture <em>behind the software.</em></h2>
+      <p>Technical analyses on distributed systems, business automation ROI, AI agents, and secure authentication.</p>
+    </div>
+    <div class="notes-tease">
+      <article class="nt-lead r">
+        <span class="nt-theme">Operational Automation</span>
+        <h3>The Hidden Cost of Repetitive Manual Work in Growing Businesses.</h3>
+        <p>
+          Manual operational steps are often treated as "free" because team members are already on payroll. But when you aggregate data entry, invoice reconciliation, and lead routing, repetitive work silently eats dozens of engineering and administrative weeks per year.
+        </p>
+        <p class="nt-fig">
+          <span class="nt-fig-lbl">Case Analysis</span>
+          $93,750 annual payroll time spent handling manual administrative tasks across 75,000 requests.
+        </p>
+      </article>
+      <div class="nt-rest">
+        <article class="nt-item r r-d1">
+          <span class="nt-theme">Distributed Systems</span>
+          <h3>Microservices vs. Modular Monolith: Choosing the Right Boundary.</h3>
+          <p>
+            Splitting a system into microservices too early creates network overhead and operational complexity. Learn how to identify true domain boundaries before decoupling.
+          </p>
+          <p class="nt-fig">
+            <span class="nt-fig-lbl">Architecture</span>
+            High-throughput API gateway with isolated patient &amp; billing services.
+          </p>
+        </article>
+        <article class="nt-item r r-d2">
+          <span class="nt-theme">AI Engineering</span>
+          <h3>Beyond Chatbots: Building Tool-Calling AI Agents with Guardrails.</h3>
+          <p>
+            How state machines in LangGraph, structured Pydantic outputs, and strict retry loops make LLMs safe for production database operations and real financial transactions.
+          </p>
+          <p class="nt-fig">
+            <span class="nt-fig-lbl">Implementation</span>
+            Zero hallucinations on structured Stripe &amp; CRM API dispatches.
+          </p>
+        </article>
+      </div>
+    </div>
+    <div class="notes-foot r">
+      <a class="proj-link gh" href="resources.html" target="_self">Read all notes and essays →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT PREVIEW -->
+<section class="section alt">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-copy r">
+        <span class="eyebrow">About Moses</span>
+        <h2 class="section-head" style="margin-bottom:26px;">Building scalable systems from <em>first principles.</em></h2>
+        <p>
+          I am a full-stack software engineer and AI consultant with a background in Computer Science from Obafemi Awolowo University (OAU). Since 2019, I have designed and delivered database-driven applications, REST APIs, microservices, and AI-powered automation workflows.
+        </p>
+        <p>
+          My focus is on engineering resilience: clean separation of concerns, robust security (JWT, RBAC, OAuth), optimized relational and document schemas, and automated CI/CD pipelines.
+        </p>
+        <div style="display:flex; gap:12px; margin-top:20px;">
+          <a class="proj-link proj-cta" href="about.html" target="_self">Full Biography &amp; Experience</a>
+          <a class="proj-link gh" href="./Assets/Aderemi_Moses_Timileyin_Resume.pdf" download="Aderemi_Moses_Timileyin_Resume.pdf" target="_blank">Download Resume (PDF)</a>
+        </div>
+      </div>
+      <div class="about-side">
+        <div class="stat-card r">
+          <div class="sc-lbl">Based in</div>
+          <div class="sc-val">Osogbo, Osun State, Nigeria (Open to Remote Worldwide)</div>
+        </div>
+        <div class="stat-card r r-d1">
+          <div class="sc-lbl">Core Stack</div>
+          <div class="sc-val">Java (Spring Boot), PHP (Laravel), Node.js, Python, Vue 3, React, Docker, PostgreSQL</div>
+        </div>
+        <div class="stat-card r r-d2">
+          <div class="sc-lbl">Education</div>
+          <div class="sc-val">B.Sc. Computer Science, Obafemi Awolowo University (OAU)</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- VALUE: CONSULTATION -->
+<section class="section">
+  <div class="container">
+    <div class="section-head r">
+      <span class="eyebrow" style="color:var(--accent);">Consultation &amp; Audits</span>
+      <h2>Before writing code, let's diagnose <em>the technical requirements.</em></h2>
+      <p>
+        You don't need a finished technical specification before getting in touch. Bring the operational challenge or product concept, and we'll evaluate the most cost-effective architecture.
+      </p>
+    </div>
+    <div class="value-grid">
+      <div class="value-card r">
+        <div class="value-price">
+          <s class="price-ref">$25</s>
+          <span class="price-free">FREE</span>
+        </div>
+        <h3>20-minute Architecture &amp; Automation Call</h3>
+        <p>
+          Discuss a backend bottleneck, legacy migration, API integration, or AI automation opportunity. We'll identify whether custom software or workflow automation is the right move.
+        </p>
+        <a class="proj-link proj-cta" href="contact.html?offer=call" target="_self">Request a free call <span class="arr">→</span></a>
+      </div>
+      <div class="value-card r r-d1">
+        <div class="value-price">
+          <span class="price-amount">$75</span>
+        </div>
+        <h3>Software &amp; Architecture Audit</h3>
+        <p>
+          A comprehensive review of your API design, database schema, security posture, or automated workflows with actionable recommendations for performance and reliability.
+        </p>
+        <a class="proj-link proj-cta" href="contact.html?offer=review" target="_self">Request an audit <span class="arr">→</span></a>
+      </div>
+    </div>
+    <div class="value-below r r-d2">
+      <figure class="vb-media">
+        <img class="ed-img" src="./Assets/images/value-decision-notes.webp" alt="Software Architecture Decision Notes" loading="lazy">
+      </figure>
+      <div class="vb-copy">
+        <p class="value-rule">Good architecture eliminates problems before they reach production.</p>
+        <p class="value-note">No pushy sales pitch. If your problem is best solved by configuring an existing SaaS or simplifying a workflow, I will tell you directly.</p>
+        <p class="cost"><span class="cost-lbl">Measure the ROI</span>
+          Bring numbers with you: query latency, daily manual operations, dropped orders, or system downtime. These metrics determine the return on investment far more reliably than arbitrary feature checklists.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT CTA -->
+<section id="contact" class="section contact-band">
+  <div class="container contact-inner">
+    <div class="contact-statement r">
+      <span class="eyebrow" style="color:#7c8794;">Let's Connect</span>
+      <h2>Have an engineering challenge or <em>project in mind?</em></h2>
+      <p>
+        Whether you are building a new full-stack product, scaling a backend API, integrating AI agents, or seeking a dedicated software engineer, let's discuss how we can work together.
+      </p>
+    </div>
+    <div class="r r-d1">
+      <a class="proj-link proj-cta" href="contact.html" target="_self" style="margin-top:8px;">Send an enquiry <span class="arr">→</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container footer-inner">
+    <a class="footer-brand" href="#top" target="_self">
+      <img src="./Assets/moses-logo.svg" alt="Moses Aderemi logo">
+      <span>Aderemi Moses Timileyin</span>
+    </a>
+    <div class="footer-links">
+      <a href="index.html#top" target="_self">Home</a>
+      <a href="work.html" target="_self">Work</a>
+      <a href="about.html" target="_self">About</a>
+      <a href="resources.html" target="_self">Notes</a>
+      <a href="contact.html" target="_self">Contact</a>
+      <a href="linktree/index.html" target="_self">Link hub</a>
+    </div>
+    <div class="footer-social">
+      <a href="https://www.linkedin.com/in/moses-aderemi-6a70a5405" rel="noopener noreferrer" target="_blank" aria-label="LinkedIn" title="LinkedIn">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1 0-4.124 2.062 2.062 0 0 1 0 4.124zM7.119 20.452H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z"/></svg>
+      </a>
+      <a href="https://github.com/mosesaderemi" rel="noopener noreferrer" target="_blank" aria-label="GitHub" title="GitHub">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+      </a>
+      <a href="https://wa.me/2349068961845" rel="noopener noreferrer" target="_blank" aria-label="WhatsApp" title="WhatsApp">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+      </a>
+      <a href="mailto:mosestimileyinaderemi@gmail.com" target="_self" aria-label="Email" title="Email">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+      </a>
+    </div>
+  </div>
+  <div class="container footer-copy">
+    © <span id="year"></span> Aderemi Moses Timileyin. Designed &amp; engineered for production.
+  </div>
+</footer>
+
+<!-- BACK TO TOP -->
+<button class="to-top" id="toTop" aria-label="Back to top">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+</button>
+
+<!-- CONTACT MODAL -->
+<div class="modal-backdrop" id="contactModal" aria-hidden="true">
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="contactModalTitle">
+    <button class="modal-x" id="contactModalClose" type="button" aria-label="Close contact details">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+    </button>
+    <span class="eyebrow">Get in touch</span>
+    <h2 id="contactModalTitle">Aderemi Moses Timileyin</h2>
+    <div class="modal-list">
+      <a class="modal-link" href="mailto:mosestimileyinaderemi@gmail.com" rel="noopener" target="_self">
+        <span class="ml-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></span>
+        <span class="ml-body">
+          <span class="ml-label">Email</span>
+          <span class="ml-value">mosestimileyinaderemi@gmail.com</span>
+        </span>
+        <span class="ml-arrow">&rarr;</span>
+      </a>
+      <a class="modal-link" href="https://wa.me/2349068961845" rel="noopener noreferrer" target="_blank">
+        <span class="ml-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg></span>
+        <span class="ml-body">
+          <span class="ml-label">WhatsApp</span>
+          <span class="ml-value">+234 906 896 1845</span>
+        </span>
+        <span class="ml-arrow">&rarr;</span>
+      </a>
+      <a class="modal-link" href="https://www.linkedin.com/in/moses-aderemi-6a70a5405" rel="noopener noreferrer" target="_blank">
+        <span class="ml-ico"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1 0-4.124 2.062 2.062 0 0 1 0 4.124zM7.119 20.452H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z"/></svg></span>
+        <span class="ml-body">
+          <span class="ml-label">LinkedIn</span>
+          <span class="ml-value">Moses Aderemi</span>
+        </span>
+        <span class="ml-arrow">&rarr;</span>
+      </a>
+      <a class="modal-link" href="https://github.com/mosesaderemi" rel="noopener noreferrer" target="_blank">
+        <span class="ml-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></span>
+        <span class="ml-body">
+          <span class="ml-label">GitHub</span>
+          <span class="ml-value">github.com/mosesaderemi</span>
+        </span>
+        <span class="ml-arrow">&rarr;</span>
+      </a>
+      <a class="modal-link" href="contact.html" target="_self">
+        <span class="ml-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg></span>
+        <span class="ml-body">
+          <span class="ml-label">Enquiry Form</span>
+          <span class="ml-value">Open detailed contact form</span>
+        </span>
+        <span class="ml-arrow">&rarr;</span>
+      </a>
+    </div>
+  </div>
+</div>
+
+<script src="./script.js" defer></script>
+</body>
+</html>
